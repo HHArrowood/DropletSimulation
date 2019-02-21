@@ -4,11 +4,20 @@ A simulation of a droplet rising through a sharp density stratification in ambie
 
 ## Getting Started
 
-All necessary Fortran libraries are included. Has been tested and compiles with either ifort or gfortran compilers. Modify the globalinfo module in main.f90 to reflect your desired parameters. In the command line "make" and then "./DropletCode" to run a simulation. 
+All necessary Fortran libraries are included. Has been tested and compiles with either ifort or gfortran compilers. Modify the `globalinfo` module in `main.f90` to reflect your desired parameters. 
+
+To build, in the source directory, simply run
+~~~~
+make
+~~~~
+
+This creates a binary in the source directory, which you can run with
+~~~~
+./DropletCode
+~~~~
 
 ## Authors
 
-The primary author of this code in its current form is H. Arrowood, for a dissertation project completed at the University of North Carolina at Chapel Hill.
-Portions of this code were adapted from pre-existing work from the dissertation projects of C. Falcon and J. Lin. More detailed attributions are included in comments. 
+The primary author of this code in its current form is Holly Arrowood, for a PhD completed at the University of North Carolina at Chapel Hill. Portions of this code were adapted from pre-existing work from the dissertation projects of Claudia Falcon and Joyce Lin. More detailed attributions are included in the comments. 
 
 
