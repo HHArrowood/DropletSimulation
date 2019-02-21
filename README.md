@@ -8,7 +8,7 @@ All necessary Fortran libraries are included. Has been tested and compiles with 
 
 ## Authors
 
-The primary author of this code in its current form is H. Arrowood, for a dissertation project completed at the University of North Carolina at Chapel Hill
+The primary author of this code in its current form is H. Arrowood, for a dissertation project completed at the University of North Carolina at Chapel Hill.
 Portions of this code were adapted from pre-existing work from the dissertation projects of C. Falcon and J. Lin. More detailed attributions are included in comments. 
 
 
